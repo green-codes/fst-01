@@ -1,0 +1,25 @@
+2011-08-08  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* module/w_smd_resistors.{mod,mdc}, module/w_smd_cap.{mod,mdc}:
+	New from Kicad Library by W. Lain;
+	http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
+
+	* module/ABM3B.mod: New for XTAL.
+
+	* module/TSOT23-5.mod: New, copied from;
+	http://library.oshec.org/compressed/m-pad-2.1.tar.gz
+
+	* module/SOT23-6L.mod: New, copied from;
+	http://library.oshec.org/compressed/ref-packages.tar.gz
+
+	* module/USB-A-PLUG.mod: New for USB A Plug for PCB.
+
+	* module/SIL-3-GND.mod: New for SWD port, based on SIL-3 module
+	distributed with KiCAD.
+
+	* module/SIL-3-2-power.mod: New for extension port, based on SIL-3
+	module distributed with KiCAD.
+
+	* module/LQFP48.mod: New.
+
+	* Project start.
