@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 08 Aug 2011 16:38:25 JST
+
+BeginCmp
+TimeStamp = /4E2CD2B1;
+Reference = C1;
+ValeurCmp = 27pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2CD2C4;
+Reference = C2;
+ValeurCmp = 27pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D6A2C;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D63F9;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D167B;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D60DE;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D6573;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D1296;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D79BC;
+Reference = C9;
+ValeurCmp = 1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D79C8;
+Reference = C10;
+ValeurCmp = 1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2CD9BD;
+Reference = C11;
+ValeurCmp = 0.01uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D76AF;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E27E65A;
+Reference = F1;
+ValeurCmp = RESETTABLE_FUSE;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E27DE01;
+Reference = J1;
+ValeurCmp = USB_A;
+IdModule  = USB-A-PLUG;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E321A32;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E32185E;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D690B;
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D766E;
+Reference = R2;
+ValeurCmp = 510;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2BD071;
+Reference = U1;
+ValeurCmp = STM32F103CB;
+IdModule  = LQFP48;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2CD88E;
+Reference = U2;
+ValeurCmp = CAT6217-330;
+IdModule  = TSOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D15EF;
+Reference = U3;
+ValeurCmp = STF202-22;
+IdModule  = SOT23-6L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E27DEE5;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = ABM3B;
+EndCmp
+
+EndListe
