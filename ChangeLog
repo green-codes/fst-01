@@ -1,5 +1,11 @@
 2011-08-08  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* fst-01.net: New.  Netlist file for KiCAD, generated from fst-01.sch.
+
+	* fst-01.sch: New.  Schematic file for KiCAD.
+
+	* fst-01.pro: New.  Project file for KiCAD.
+
 	* library/stm32f103.{lib,dcm}: New.
 	* library/stf202.{lib,dcm}: New.
 	* library/cat6217-330.{lib,dcm}: New.
