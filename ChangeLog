@@ -1,5 +1,9 @@
 2011-08-08  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* library/stm32f103.{lib,dcm}: New.
+	* library/stf202.{lib,dcm}: New.
+	* library/cat6217-330.{lib,dcm}: New.
+
 	* module/w_smd_resistors.{mod,mdc}, module/w_smd_cap.{mod,mdc}:
 	New from Kicad Library by W. Lain;
 	http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
