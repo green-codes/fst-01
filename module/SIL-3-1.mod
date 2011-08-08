@@ -3,7 +3,7 @@ PCBNEW-LibModule-V1  Mon Aug  8 11:32:24 2011 JST
 $INDEX
 SIL-3-1
 $EndINDEX
-$MODULE SIL-3-2-power
+$MODULE SIL-3-1
 Po 0 0 0 15 4E32361C 00000000 ~~
 Li SIL-3-1
 Cd Connecteur 3 pins
