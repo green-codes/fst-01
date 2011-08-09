@@ -1,6 +1,6 @@
-update=Mon 08 Aug 2011 16:41:46 JST
+update=Tue 09 Aug 2011 09:03:10 JST
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=library
@@ -39,11 +39,6 @@ LibName3=stf202
 LibName4=cat6217-330
 LibName5=conn
 LibName6=power
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [pcbnew]
@@ -64,7 +59,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=fst-01.net
 [pcbnew/libraries]
-LibDir=module
 LibName1=led
 LibName2=ABM3B
 LibName3=LQFP48
@@ -76,3 +70,9 @@ LibName8=w_smd_resistors
 LibName9=libcms
 LibName10=SIL-3-1
 LibName11=SIL-3-2
+LibDir=module
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

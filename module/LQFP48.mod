@@ -18,436 +18,436 @@ DS -1377 1377 1377 1377 39 21
 DS 1377 1377 1377 -1377 39 21
 DS 1377 -1377 -1377 -1377 39 21
 $PAD
-Sh "48" R 118 472 0 0 0
+Sh "48" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1083 -1673
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "47" R 118 472 0 0 0
+Sh "47" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -886 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "46" R 118 472 0 0 0
+Sh "46" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -689 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "45" R 118 472 0 0 0
+Sh "45" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -492 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "44" R 118 472 0 0 0
+Sh "44" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -295 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "43" R 118 472 0 0 0
+Sh "43" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -98 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "42" R 118 472 0 0 0
+Sh "42" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 98 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "41" R 118 472 0 0 0
+Sh "41" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 295 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "40" R 118 472 0 0 0
+Sh "40" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 492 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "39" R 118 472 0 0 0
+Sh "39" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 689 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "38" R 118 472 0 0 0
+Sh "38" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 886 -1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "37" R 118 472 0 0 0
+Sh "37" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1083 -1673
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "36" R 472 118 0 0 0
+Sh "36" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 -1083
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "35" R 472 118 0 0 0
+Sh "35" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 -886
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "34" R 472 118 0 0 0
+Sh "34" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 -689
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "33" R 472 118 0 0 0
+Sh "33" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 -492
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "32" R 472 118 0 0 0
+Sh "32" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 -295
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "31" R 472 118 0 0 0
+Sh "31" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 -98
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "30" R 472 118 0 0 0
+Sh "30" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 98
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "29" R 472 118 0 0 0
+Sh "29" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 295
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "28" R 472 118 0 0 0
+Sh "28" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 492
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "27" R 472 118 0 0 0
+Sh "27" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 689
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "26" R 472 118 0 0 0
+Sh "26" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 886
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "25" R 472 118 0 0 0
+Sh "25" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1673 1083
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "24" R 118 472 0 0 0
+Sh "24" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1083 1673
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "23" R 118 472 0 0 0
+Sh "23" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 886 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "22" R 118 472 0 0 0
+Sh "22" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 689 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "21" R 118 472 0 0 0
+Sh "21" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 492 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "20" R 118 472 0 0 0
+Sh "20" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 295 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "19" R 118 472 0 0 0
+Sh "19" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 98 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "18" R 118 472 0 0 0
+Sh "18" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -98 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "17" R 118 472 0 0 0
+Sh "17" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -295 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "16" R 118 472 0 0 0
+Sh "16" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -492 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "15" R 118 472 0 0 0
+Sh "15" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -689 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "14" R 118 472 0 0 0
+Sh "14" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -886 1673
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "13" R 118 472 0 0 0
+Sh "13" R 110 354 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1083 1673
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "12" R 472 118 0 0 0
+Sh "12" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 1083
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "11" R 472 118 0 0 0
+Sh "11" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 886
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "10" R 472 118 0 0 0
+Sh "10" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 689
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "9" R 472 118 0 0 0
+Sh "9" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 492
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "8" R 472 118 0 0 0
+Sh "8" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 295
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "7" R 472 118 0 0 0
+Sh "7" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 98
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "6" R 472 118 0 0 0
+Sh "6" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 -98
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "5" R 472 118 0 0 0
+Sh "5" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 -295
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "4" R 472 118 0 0 0
+Sh "4" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 -492
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "3" R 472 118 0 0 0
+Sh "3" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 -689
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "2" R 472 118 0 0 0
+Sh "2" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 -886
-.SolderMask 40
-.LocalClearance 40
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $PAD
-Sh "1" R 472 118 0 0 0
+Sh "1" R 354 110 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1673 -1083
-.SolderMask 40
-.LocalClearance 78
+.SolderMask 80
+.LocalClearance 80
 $EndPAD
 $EndMODULE  LQFP48
 $EndLIBRARY

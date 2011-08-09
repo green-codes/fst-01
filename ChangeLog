@@ -1,3 +1,13 @@
+2011-08-09  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Draw PCB outline (13.5mm x 26mm).  Update using new
+	LQFP48.
+	* fst-01.{cmp,net,pro}: Updated.
+
+	* module/LQFP48.mod: Pad is now a bit smaller than recommended
+	footprint (in STM doc #13587).  SolderMask is now 8mil, clearance
+	as well.
+
 2011-08-08  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: New.  Board file for KiCAD, by PCBnew.
