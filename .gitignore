@@ -2,3 +2,4 @@ $savepcb.000
 $savepcb.brd
 fst-01-cache.lib
 fst-01.000
+*.bak

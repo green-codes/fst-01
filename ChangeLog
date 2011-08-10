@@ -1,5 +1,8 @@
 2011-08-10  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* fst-01.brd: Move references and values.  Draw logo and product
+	number.
+
 	* fst-01.brd: Connect wires, fill zones.
 	* fst-01.sch: Connect LED and R1.
 	* fst-01.net: Updated.
