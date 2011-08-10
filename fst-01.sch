@@ -1,17 +1,18 @@
-EESchema Schematic File Version 2  date Mon 08 Aug 2011 15:55:23 JST
+EESchema Schematic File Version 2  date Tue 09 Aug 2011 18:16:34 JST
 LIBS:device
 LIBS:stm32f103
 LIBS:stf202
 LIBS:cat6217-330
 LIBS:conn
 LIBS:power
+LIBS:fst-01-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "8 aug 2011"
+Date "9 aug 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -20,7 +21,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	7500 5600 6850 5600
+	7525 5600 6850 5600
 Wire Wire Line
 	6850 5600 6850 4850
 Wire Wire Line
