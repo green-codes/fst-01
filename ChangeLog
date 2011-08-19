@@ -1,3 +1,14 @@
+2011-08-19  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Follow the fix of VBUS pin of STF-202.
+	PCB outline is now (13.15mm x 26mm).
+
+2011-08-17  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.sch: Fix connection to STF-202.  The pin VBUS should
+	_not_ be connected to VBUS, but 3.3V to pull up.
+	* fst-01.net: Updated.
+
 2011-08-10  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: Move references and values.  Draw logo and product

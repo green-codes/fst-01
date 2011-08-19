@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 09 Aug 2011 11:30:11 JST
+# EESchema Netlist Version 1.1 created  Wed 17 Aug 2011 13:39:07 JST
 (
  ( /4E321A32 $noname  K1 CONN_3 {Lib=CONN_3}
   (    1 +3.3V )
@@ -25,11 +25,11 @@
   (    2 GND )
  )
  ( /4E2D76AF $noname  D1 LED {Lib=LED}
-  (    1 N-000004 )
+  (    1 N-000005 )
   (    2 GND )
  )
  ( /4E2D766E $noname  R2 510 {Lib=R}
-  (    1 N-000004 )
+  (    1 N-000005 )
   (    2 /LED )
  )
  ( /4E2D6A2C $noname  C3 0.1uF {Lib=C}
@@ -57,7 +57,7 @@
   (    2 +3.3V )
  )
  ( /4E2D15EF $noname  U3 STF202-22 {Lib=STF202-22}
-  (    1 /VBUS )
+  (    1 N-000002 )
   (    2 /D- )
   (    3 /D+ )
   (    4 /D+_PLUG )
@@ -69,14 +69,14 @@
   (    2 +3.3V )
  )
  ( /4E2CD9BD $noname  C11 0.01uF {Lib=C}
-  (    1 N-000003 )
+  (    1 N-000004 )
   (    2 GND )
  )
  ( /4E2CD88E $noname  U2 CAT6217-330 {Lib=CAT6217-330}
   (    1 /VBUS )
   (    2 GND )
   (    3 /VBUS )
-  (    4 N-000003 )
+  (    4 N-000004 )
   (    5 +3.3V )
  )
  ( /4E2CD2C4 $noname  C2 27pF {Lib=C}
@@ -118,7 +118,7 @@
   (   28 ? )
   (   29 /LED )
   (   30 ? )
-  (   31 ? )
+  (   31 N-000002 )
   (   32 /D- )
   (   33 /D+ )
   (   34 /SWDIO )
@@ -232,94 +232,96 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "GND" "GND"
- U1 44
  U1 35
- K1 2
- K2 2
- C7 1
- U2 2
- C4 1
+ U1 44
+ U1 23
+ U1 47
+ C2 2
+ C1 2
+ U1 20
+ U1 8
  C9 2
  C10 2
- C2 2
- U1 47
- C1 2
- U1 23
- U1 20
- C6 1
- C5 1
- C8 1
- U3 6
- C11 2
- D1 2
  J1 4
+ K2 2
+ K1 2
+ D1 2
  C3 2
- U1 8
-Net 2 "+3.3V" "+3.3V"
+ C4 1
+ U2 2
+ C7 1
+ U3 6
+ C5 1
+ C6 1
+ C8 1
+ C11 2
+Net 2 "" ""
+ U3 1
+ U1 31
+Net 3 "+3.3V" "+3.3V"
  C9 1
  K1 1
  U1 36
- U1 48
- U1 24
  R1 2
- C7 2
- C4 2
- U1 1
- U2 5
- U1 9
- C5 2
- C6 2
+ U1 48
  C8 2
-Net 3 "" ""
- U2 4
- C11 1
+ U1 24
+ U1 9
+ C7 2
+ U1 1
+ C4 2
+ U2 5
+ C6 2
+ C5 2
 Net 4 "" ""
- D1 1
+ C11 1
+ U2 4
+Net 5 "" ""
  R2 1
-Net 10 "/SWDIO" "SWDIO"
- U1 34
- K2 3
-Net 24 "/D-_PLUG" "D-_PLUG"
- J1 2
- U3 5
-Net 25 "/D+_PLUG" "D+_PLUG"
- U3 4
- J1 3
-Net 36 "/PB0" "PB0"
+ D1 1
+Net 21 "/PB0" "PB0"
  K1 3
  U1 18
-Net 37 "/VBUS" "VBUS"
- U2 3
- C10 1
- U2 1
- U3 1
- F1 2
-Net 38 "/NRST" "NRST"
- U1 7
+Net 25 "/D-_PLUG" "D-_PLUG"
+ U3 5
+ J1 2
+Net 26 "/D+_PLUG" "D+_PLUG"
+ J1 3
+ U3 4
+Net 36 "/NRST" "NRST"
  C3 1
  R1 1
-Net 39 "/OSC_IN" "OSC_IN"
- X1 2
+ U1 7
+Net 37 "/OSC_IN" "OSC_IN"
  C1 1
  U1 5
-Net 40 "/OSC_OUT" "OSC_OUT"
- U1 6
- X1 1
+ X1 2
+Net 38 "/OSC_OUT" "OSC_OUT"
  C2 1
-Net 41 "/D-" "D-"
+ X1 1
+ U1 6
+Net 39 "/D-" "D-"
  U1 32
  U3 2
-Net 42 "/D+" "D+"
+Net 40 "/D+" "D+"
  U3 3
  U1 33
-Net 43 "/LED" "LED"
+Net 41 "/LED" "LED"
  U1 29
  R2 2
-Net 44 "/SWCLK" "SWCLK"
+Net 42 "/SWCLK" "SWCLK"
  K2 1
  U1 37
-Net 45 "/VBUS_PLUG" "VBUS_PLUG"
+Net 43 "/VBUS_PLUG" "VBUS_PLUG"
  F1 1
  J1 1
+Net 44 "/SWDIO" "SWDIO"
+ U1 34
+ K2 3
+Net 45 "/VBUS" "VBUS"
+ C10 1
+ U2 3
+ F1 2
+ U2 1
 }
 #End

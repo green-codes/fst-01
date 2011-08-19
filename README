@@ -1,5 +1,6 @@
 This is FST-01 PCB for KiCAD.
 
+I publish the files for KiCAD.  I don't decide license yet.
 
 
 External Files:
@@ -7,7 +8,10 @@ External Files:
   w_smd_resistors.{mod,mdc}
 
 is downloaded from:
+
    http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
+
+Its copyright notice is like following:
 
 Kicad Library by W. Lain - kcswalter@member.fsf.org
 
