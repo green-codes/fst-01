@@ -1,3 +1,8 @@
+2011-08-22  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Fix logo.
+	PCB outline is now (13.15mm x 26.08mm).
+
 2011-08-19  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: Follow the fix of VBUS pin of STF-202.
