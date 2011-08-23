@@ -1,3 +1,14 @@
+2011-08-23  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* library/nuf2221w1.lib: New.
+	* module/LED0603.mod: New.
+	* module/SOT363.mod: New.
+	* fst-01.pro: Updated.
+
+	* fst-01.sch: Change STF-202 to NUF2221.
+	* fst-01.net, fst-01.cmp: Updated.
+	* fst-01.brd: Follow the change of the circuit.
+
 2011-08-22  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: Fix logo.
