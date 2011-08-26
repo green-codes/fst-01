@@ -1,4 +1,4 @@
-update=Fri 26 Aug 2011 16:06:24 JST
+update=Fri 26 Aug 2011 16:27:55 JST
 version=1
 last_client=pcbnew
 [general]
@@ -66,12 +66,12 @@ MSegLar=59
 LastNetListRead=fst-01.net
 [pcbnew/libraries]
 LibDir=module
-LibName1=SMT_CAP
-LibName2=ABM3B
-LibName3=LQFP48
-LibName4=TSOT23-5
-LibName5=USB-A-PLUG
-LibName6=w_smd_resistors
+LibName1=SMT_RES
+LibName2=SMT_CAP
+LibName3=ABM3B
+LibName4=LQFP48
+LibName5=TSOT23-5
+LibName6=USB-A-PLUG
 LibName7=libcms
 LibName8=SIL-3-1
 LibName9=SIL-3-2
