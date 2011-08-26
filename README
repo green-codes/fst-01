@@ -3,11 +3,9 @@ This is FST-01 PCB for KiCAD.
 I publish the files for KiCAD.  I don't decide license yet.
 
 
-External Files:
-  w_smd_cap.{mod,mdc}
-  w_smd_resistors.{mod,mdc}
-
-is downloaded from:
+For module/SMT_CAP.mod and module/SMT_RES.mod, module drawings are
+copied from w_smd_cap.mod and w_smd_resistors.mod by W.Lain.  Files
+are available at:
 
    http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
 
