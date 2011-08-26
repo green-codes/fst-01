@@ -1,5 +1,8 @@
 2011-08-26  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* module/LED0603.mod: Draw outline silk and put module outline
+	into Drawings layer.
+
 	* module/LQFP48.mod: Move first pin indicator.
 
 	* fst-01.brd: Fix silks for references.
