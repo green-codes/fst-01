@@ -1,5 +1,7 @@
 2011-08-26  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* module/TSOT23-5.mod: Put module outline into Drawings layer.
+
 	* module/SMT_RES.mod: New.  Drawings are from
 	module/w_smd_resistors.mod.
 	* module/w_smd_resistors.mdc, module/w_smd_resistors.mod: Delete.
