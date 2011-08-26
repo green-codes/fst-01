@@ -1,5 +1,10 @@
 2011-08-26  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* module/SMT_CAP.mod: New.  Drawings are from
+	module/w_smd_cap.mod.
+
+	* module/w_smd_cap.mdc module/w_smd_cap.mod: Delete.
+
 	* module/LED0603.mod: Draw outline silk and put module outline
 	into Drawings layer.
 

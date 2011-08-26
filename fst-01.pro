@@ -1,6 +1,6 @@
-update=Tue 23 Aug 2011 12:40:14 JST
+update=Fri 26 Aug 2011 16:06:24 JST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -42,6 +42,11 @@ LibName4=cat6217-330
 LibName5=conn
 LibName6=power
 LibName7=nuf2221w1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
@@ -60,20 +65,15 @@ TxtLar=120
 MSegLar=59
 LastNetListRead=fst-01.net
 [pcbnew/libraries]
-LibName1=ABM3B
-LibName2=LQFP48
-LibName3=TSOT23-5
-LibName4=USB-A-PLUG
-LibName5=w_smd_cap
+LibDir=module
+LibName1=SMT_CAP
+LibName2=ABM3B
+LibName3=LQFP48
+LibName4=TSOT23-5
+LibName5=USB-A-PLUG
 LibName6=w_smd_resistors
 LibName7=libcms
 LibName8=SIL-3-1
 LibName9=SIL-3-2
 LibName10=SOT363
 LibName11=LED0603
-LibDir=module
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
