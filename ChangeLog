@@ -1,3 +1,7 @@
+2011-08-26  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Fix silks for references.
+
 2011-08-23  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* library/nuf2221w1.lib: New.
