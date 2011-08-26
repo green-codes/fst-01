@@ -1,5 +1,7 @@
 2011-08-26  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* module/LQFP48.mod: Move first pin indicator.
+
 	* fst-01.brd: Fix silks for references.
 
 2011-08-23  NIIBE Yutaka  <gniibe@fsij.org>
