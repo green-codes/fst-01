@@ -1,205 +1,163 @@
-# EESchema Netlist Version 1.1 created  Mon 22 Aug 2011 17:46:45 JST
+# EESchema Netlist Version 1.1 created  Mon 05 Sep 2011 12:27:36 JST
 (
- ( /4E2CD2B1 c_0402 C1 27pF
-  ( 1 /OSC_IN )
-  ( 2 GND )
+ ( /4E521576 $noname  U3 NUF2221W1 {Lib=NUF2221W1}
+  (    1 /D+ )
+  (    2 GND )
+  (    3 /D- )
+  (    4 /D-_PLUG )
+  (    5 N-000035 )
+  (    6 /D+_PLUG )
  )
- ( /4E2CD2C4 c_0402 C2 27pF
-  ( 1 /OSC_OUT )
-  ( 2 GND )
+ ( /4E321A32 $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 +3.3V )
+  (    2 GND )
+  (    3 /PB0 )
  )
- ( /4E2D6A2C c_0402 C3 0.1uF
-  ( 1 /NRST )
-  ( 2 GND )
+ ( /4E32185E $noname  K2 CONN_3 {Lib=CONN_3}
+  (    1 /SWCLK )
+  (    2 GND )
+  (    3 /SWDIO )
  )
- ( /4E2D63F9 c_0402 C4 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /4E27DE01 $noname  J1 USB_A {Lib=USB_2}
+  (    1 /VBUS_PLUG )
+  (    2 /D-_PLUG )
+  (    3 /D+_PLUG )
+  (    4 GND )
  )
- ( /4E2D167B c_0402 C5 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /4E2D79C8 $noname  C10 1uF {Lib=CP1}
+  (    1 /VBUS )
+  (    2 GND )
  )
- ( /4E2D60DE c_0402 C6 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /4E2D79BC $noname  C9 1uF {Lib=CP1}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /4E2D6573 c_0402 C7 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /4E2D76AF $noname  D1 LED {Lib=LED}
+  (    1 N-000004 )
+  (    2 GND )
  )
- ( /4E2D1296 c_0402 C8 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /4E2D766E $noname  R2 510 {Lib=R}
+  (    1 N-000004 )
+  (    2 /LED )
  )
- ( /4E2D79BC c_0603 C9 1uF
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /4E2D6A2C $noname  C3 0.1uF {Lib=C}
+  (    1 /NRST )
+  (    2 GND )
  )
- ( /4E2D79C8 c_0603 C10 1uF
-  ( 1 /VBUS )
-  ( 2 GND )
+ ( /4E2D690B $noname  R1 100k {Lib=R}
+  (    1 /NRST )
+  (    2 +3.3V )
  )
- ( /4E2CD9BD c_0402 C11 0.01uF
-  ( 1 N-000003 )
-  ( 2 GND )
+ ( /4E2D6573 $noname  C7 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /4E2D76AF LED-0603 D1 LED
-  ( 1 N-000004 )
-  ( 2 GND )
+ ( /4E2D63F9 $noname  C4 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /4E27E65A SM0805 F1 RESETTABLE_FUSE
-  ( 1 /VBUS_PLUG )
-  ( 2 /VBUS )
+ ( /4E2D60DE $noname  C6 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /4E27DE01 USB-A-PLUG J1 USB_A
-  ( 1 /VBUS_PLUG )
-  ( 2 /D-_PLUG )
-  ( 3 /D+_PLUG )
-  ( 4 GND )
+ ( /4E2D167B $noname  C5 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /4E321A32 SIL-3-1 K1 CONN_3
-  ( 1 +3.3V )
-  ( 2 GND )
-  ( 3 /PB0 )
+ ( /4E2D1296 $noname  C8 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /4E32185E SIL-3-2 K2 CONN_3
-  ( 1 /SWCLK )
-  ( 2 GND )
-  ( 3 /SWDIO )
+ ( /4E2CD9BD $noname  C11 0.01uF {Lib=C}
+  (    1 N-000003 )
+  (    2 GND )
  )
- ( /4E2D690B r_0402 R1 100k
-  ( 1 /NRST )
-  ( 2 +3.3V )
+ ( /4E2CD88E $noname  U2 CAT6217-330 {Lib=CAT6217-330}
+  (    1 /VBUS )
+  (    2 GND )
+  (    3 /VBUS )
+  (    4 N-000003 )
+  (    5 +3.3V )
  )
- ( /4E2D766E r_0402 R2 510
-  ( 1 N-000004 )
-  ( 2 /LED )
+ ( /4E2CD2C4 $noname  C2 27pF {Lib=C}
+  (    1 /OSC_OUT )
+  (    2 GND )
  )
- ( /4E2BD071 LQFP48 U1 STM32F103CB
-  ( 1 +3.3V )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 /OSC_IN )
-  ( 6 /OSC_OUT )
-  ( 7 /NRST )
-  ( 8 GND )
-  ( 9 +3.3V )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
-  ( 17 ? )
-  ( 18 /PB0 )
-  ( 19 ? )
-  ( 20 GND )
-  ( 21 ? )
-  ( 22 ? )
-  ( 23 GND )
-  ( 24 +3.3V )
-  ( 25 ? )
-  ( 26 ? )
-  ( 27 ? )
-  ( 28 ? )
-  ( 29 /LED )
-  ( 30 ? )
-  ( 31 N-000039 )
-  ( 32 /D- )
-  ( 33 /D+ )
-  ( 34 /SWDIO )
-  ( 35 GND )
-  ( 36 +3.3V )
-  ( 37 /SWCLK )
-  ( 38 ? )
-  ( 39 ? )
-  ( 40 ? )
-  ( 41 ? )
-  ( 42 ? )
-  ( 43 ? )
-  ( 44 GND )
-  ( 45 ? )
-  ( 46 ? )
-  ( 47 GND )
-  ( 48 +3.3V )
+ ( /4E2CD2B1 $noname  C1 27pF {Lib=C}
+  (    1 /OSC_IN )
+  (    2 GND )
  )
- ( /4E2CD88E TSOT23-5 U2 CAT6217-330
-  ( 1 /VBUS )
-  ( 2 GND )
-  ( 3 /VBUS )
-  ( 4 N-000003 )
-  ( 5 +3.3V )
+ ( /4E2BD071 $noname  U1 STM32F103CB {Lib=STM32F103CB}
+  (    1 +3.3V )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 /OSC_IN )
+  (    6 /OSC_OUT )
+  (    7 /NRST )
+  (    8 GND )
+  (    9 +3.3V )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 /PB0 )
+  (   19 ? )
+  (   20 GND )
+  (   21 ? )
+  (   22 ? )
+  (   23 GND )
+  (   24 +3.3V )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 /LED )
+  (   30 ? )
+  (   31 N-000035 )
+  (   32 /D- )
+  (   33 /D+ )
+  (   34 /SWDIO )
+  (   35 GND )
+  (   36 +3.3V )
+  (   37 /SWCLK )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+  (   41 ? )
+  (   42 ? )
+  (   43 ? )
+  (   44 GND )
+  (   45 ? )
+  (   46 ? )
+  (   47 GND )
+  (   48 +3.3V )
  )
- ( /4E521576 SOT363 U3 NUF2221W1
-  ( 1 /D+_PLUG )
-  ( 2 GND )
-  ( 3 /D-_PLUG )
-  ( 4 /D- )
-  ( 5 N-000039 )
-  ( 6 /D+ )
+ ( /4E27E65A $noname  F1 RESETTABLE_FUSE {Lib=FUSE}
+  (    1 /VBUS_PLUG )
+  (    2 /VBUS )
  )
- ( /4E27DEE5 ABM3B X1 8MHz
-  ( 1 /OSC_OUT )
-  ( 2 /OSC_IN )
+ ( /4E27DEE5 $noname  X1 8MHz {Lib=CRYSTAL}
+  (    1 /OSC_OUT )
+  (    2 /OSC_IN )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C9
- CP*
- SM*
+$component U3
+ SOT23-6
 $endlist
 $component C10
  CP*
  SM*
 $endlist
-$component C11
+$component C9
+ CP*
  SM*
- C?
- C1-1
 $endlist
 $component D1
  LED-3MM
@@ -210,23 +168,160 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
-$endlist
 $component R2
  R?
  SM0603
  SM0805
  R?-*
 $endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
 $component U1
  LQFP48
 $endlist
-$component U3
- SOT23-6
-$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U1 44
+ U1 35
+ U1 23
+ U3 2
+ C3 2
+ K2 2
+ J1 4
+ C7 1
+ C1 2
+ U1 47
+ C2 2
+ C11 2
+ C4 1
+ C6 1
+ U1 20
+ C5 1
+ K1 2
+ C10 2
+ C9 2
+ D1 2
+ U2 2
+ C8 1
+ U1 8
+Net 2 "+3.3V" "+3.3V"
+ U1 1
+ C6 2
+ U1 9
+ K1 1
+ C8 2
+ U1 48
+ C9 1
+ C7 2
+ U1 36
+ R1 2
+ U1 24
+ C5 2
+ U2 5
+ C4 2
+Net 3 "" ""
+ U2 4
+ C11 1
+Net 4 "" ""
+ R2 1
+ D1 1
+Net 21 "/PB0" "PB0"
+ K1 3
+ U1 18
+Net 22 "/SWCLK" "SWCLK"
+ K2 1
+ U1 37
+Net 26 "/D+_PLUG" "D+_PLUG"
+ U3 6
+ J1 3
+Net 35 "" ""
+ U1 31
+ U3 5
+Net 36 "/NRST" "NRST"
+ U1 7
+ C3 1
+ R1 1
+Net 37 "/OSC_IN" "OSC_IN"
+ C1 1
+ X1 2
+ U1 5
+Net 38 "/OSC_OUT" "OSC_OUT"
+ X1 1
+ U1 6
+ C2 1
+Net 39 "/D+" "D+"
+ U1 33
+ U3 1
+Net 40 "/LED" "LED"
+ R2 2
+ U1 29
+Net 41 "/VBUS" "VBUS"
+ U2 3
+ U2 1
+ C10 1
+ F1 2
+Net 42 "/D-_PLUG" "D-_PLUG"
+ J1 2
+ U3 4
+Net 43 "/D-" "D-"
+ U1 32
+ U3 3
+Net 44 "/VBUS_PLUG" "VBUS_PLUG"
+ F1 1
+ J1 1
+Net 45 "/SWDIO" "SWDIO"
+ K2 3
+ U1 34
+}
+#End

@@ -1,3 +1,11 @@
+2011-09-05  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Follow the change or circuit.
+
+	* fst-01.net: Rengenerated.
+
+	* fst-01.sch: Fix for connection of NUF2221.
+
 2011-08-26  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* module/TSOT23-5.mod: Put module outline into Drawings layer.
