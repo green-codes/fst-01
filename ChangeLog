@@ -1,3 +1,11 @@
+2011-09-06  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Update modules.  Logo improvement.
+
+	* module/SOT363.mod: Move pin 1 index.
+
+	* module/LQFP48.mod: Move pin 1 index.
+
 2011-09-05  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: Follow the change or circuit.
