@@ -1,4 +1,4 @@
-update=Wed 07 Sep 2011 08:54:52 JST
+update=Thu 08 Sep 2011 10:59:58 JST
 version=1
 last_client=pcbnew
 [general]
@@ -72,8 +72,8 @@ LibName3=ABM3B
 LibName4=LQFP48
 LibName5=TSOT23-5
 LibName6=USB-A-PLUG
-LibName7=libcms
-LibName8=SIL-3-1
-LibName9=SIL-3-2
-LibName10=SOT363
-LibName11=LED0603
+LibName7=SIL-3-1
+LibName8=SIL-3-2
+LibName9=SOT363
+LibName10=LED0603
+LibName11=SM0805

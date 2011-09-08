@@ -1,5 +1,18 @@
 2011-09-08  NIIBE Yutaka  <gniibe@fsij.org>
 
+	* module/SM0805.mod: New.  Based on KiCAD's SM0805 module of
+	libcms, and modify for 6mil space rule.
+	* module/SOT363.mod: Move lines outside 6mil space.
+	* module/TSOT23-5.mod: Likewise.
+	* module/SMT_RES.mod: Likewise.
+	* module/SMT_CAP.mod: Likewise.
+	* module/LED0603.mod: Likewise.
+	* module/ABM3B.mod: Add a rectangle.
+	* module/LQFP48.mod: Move index a bit.
+	* module/USB-A-PLUG.mod: Remove two silk lines.
+	* fst-01.pro: Use SM0805.mod.
+	* fst-01.brd: Update modules.
+
 	Set Preferences -> Dimensions -> Pads Mask Clearance.
 	* fst-01.brd (Pad2MaskClearance): 6mil (was: 8mil).
 	* fst-01.pro (VEgarde): Ditto.
