@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Tue 23 Aug 2011 12:07:04 JST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Fri 09 Sep 2011 17:12:22 JST
 
 BeginCmp
 TimeStamp = /4E2CD2B1;
@@ -36,45 +36,38 @@ IdModule  = c_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E2D60DE;
+TimeStamp = /4E2D6573;
 Reference = C6;
 ValeurCmp = 0.1uF;
 IdModule  = c_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E2D6573;
+TimeStamp = /4E2D1296;
 Reference = C7;
 ValeurCmp = 0.1uF;
 IdModule  = c_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E2D1296;
-Reference = C8;
-ValeurCmp = 0.1uF;
-IdModule  = c_0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /4E2D79BC;
-Reference = C9;
-ValeurCmp = 1uF;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E2D79C8;
-Reference = C10;
-ValeurCmp = 1uF;
+Reference = C8;
+ValeurCmp = 4.7uF;
 IdModule  = c_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E2CD9BD;
-Reference = C11;
+Reference = C9;
 ValeurCmp = 0.01uF;
 IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D79C8;
+Reference = C10;
+ValeurCmp = 4.7uF;
+IdModule  = c_0603;
 EndCmp
 
 BeginCmp
@@ -85,13 +78,6 @@ IdModule  = LED0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E27E65A;
-Reference = F1;
-ValeurCmp = RESETTABLE_FUSE;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /4E27DE01;
 Reference = J1;
 ValeurCmp = USB_A;
@@ -99,10 +85,10 @@ IdModule  = USB-A-PLUG;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E321A32;
+TimeStamp = /4E6998B6;
 Reference = K1;
-ValeurCmp = CONN_3;
-IdModule  = SIL-3-1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4-2;
 EndCmp
 
 BeginCmp
@@ -113,24 +99,24 @@ IdModule  = SIL-3-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E2D690B;
-Reference = R1;
-ValeurCmp = 100k;
-IdModule  = r_0402;
+TimeStamp = /4E699F67;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E2D766E;
-Reference = R2;
+Reference = R1;
 ValeurCmp = 510;
 IdModule  = r_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E2BD071;
+TimeStamp = /4E68666C;
 Reference = U1;
-ValeurCmp = STM32F103CB;
-IdModule  = LQFP48;
+ValeurCmp = STM32F103TB;
+IdModule  = QFN36;
 EndCmp
 
 BeginCmp

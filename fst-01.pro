@@ -1,4 +1,4 @@
-update=Thu 08 Sep 2011 10:59:58 JST
+update=Fri 09 Sep 2011 17:12:54 JST
 version=1
 last_client=pcbnew
 [general]
@@ -49,9 +49,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=0
-PadDimH=157
-PadDimV=197
+PadDrlX=400
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -66,14 +66,15 @@ MSegLar=59
 LastNetListRead=fst-01.net
 [pcbnew/libraries]
 LibDir=module
-LibName1=SMT_RES
-LibName2=SMT_CAP
-LibName3=ABM3B
-LibName4=LQFP48
-LibName5=TSOT23-5
-LibName6=USB-A-PLUG
-LibName7=SIL-3-1
+LibName1=SIL-4-2
+LibName2=SIL-3-3
+LibName3=SMT_RES
+LibName4=SMT_CAP
+LibName5=ABM3B
+LibName6=TSOT23-5
+LibName7=USB-A-PLUG
 LibName8=SIL-3-2
 LibName9=SOT363
 LibName10=LED0603
 LibName11=SM0805
+LibName12=QFN36

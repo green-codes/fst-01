@@ -1,3 +1,14 @@
+2011-09-09  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* module/SIL-3-3.mod: New.
+	* module/SIL-4-2.mod: New.
+	* module/QFN36.mod: New.
+	* module/TSOT23-5.mod, module/SOT363.mod: Silk improvement.
+	* module/SIL-3-2.mod: Change pin assignment.
+	* library/stm32f103.lib, library/stm32f103.dcm: Add STM32F108TB.
+	* fst-01.sch: Use 36-pin STM32F108TB.
+	* fst-01.pro, fst-01.net fst-01.cmp fst-01.brd: Updated.
+
 2011-09-08  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* module/SM0805.mod: New.  Based on KiCAD's SM0805 module of
