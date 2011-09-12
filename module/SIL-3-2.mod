@@ -1,10 +1,10 @@
-PCBNEW-LibModule-V1  Fri 09 Sep 2011 13:08:07 JST
+PCBNEW-LibModule-V1  Mon 12 Sep 2011 10:12:01 JST
 # encoding utf-8
 $INDEX
 SIL-3-2
 $EndINDEX
 $MODULE SIL-3-2
-Po 0 0 0 15 4E699121 00000000 ~~
+Po 0 0 0 15 4E6D5C5C 00000000 ~~
 Li SIL-3-2
 Cd Connecteur 3 pins
 Kw CONN DEV
@@ -22,7 +22,7 @@ Sh "1" R 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -1004 0
+Po -1000 0
 $EndPAD
 $PAD
 Sh "2" C 600 600 0 0 0
