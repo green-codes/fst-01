@@ -1,0 +1,163 @@
+PCBNEW-BOARD Version 1 date Fri 30 Sep 2011 13:39:24 JST
+
+# Created by Pcbnew(2011-05-25)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 0
+NoConn 0
+Di 41600 30856 51910 47097
+Ndraw 12
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 0
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title "FST-01"
+Date "30 sep 2011"
+Rev ""
+Comp "Flying Stone Technology"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 79
+TrackClearence 79
+ZoneClearence 79
+TrackMinWidth 79
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 315
+ViaDrill 236
+ViaMinSize 315
+ViaMinDrill 197
+MicroViaSize 197
+MicroViaDrill 59
+MicroViasAllowed 0
+MicroViaMinSize 197
+MicroViaMinDrill 59
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+GridOrigin 50000 38975
+AuxiliaryAxisOrg 50000 38976
+PcbPlotParams (pcbplotparams (layerselection 149979137) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 79
+TrackWidth 79
+ViaDia 315
+ViaDrill 236
+uViaDia 197
+uViaDrill 59
+AddNet ""
+$EndNCLASS
+$NCLASS
+Name "GND"
+Desc ""
+Clearance 79
+TrackWidth 236
+ViaDia 315
+ViaDrill 236
+uViaDia 197
+uViaDrill 59
+$EndNCLASS
+$NCLASS
+Name "VBUS"
+Desc ""
+Clearance 79
+TrackWidth 236
+ViaDia 315
+ViaDrill 236
+uViaDia 197
+uViaDrill 59
+$EndNCLASS
+$NCLASS
+Name "VDD"
+Desc ""
+Clearance 79
+TrackWidth 236
+ViaDia 315
+ViaDrill 236
+uViaDia 197
+uViaDrill 59
+$EndNCLASS
+$DRAWSEGMENT
+Po 0 41664 36220 51821 36220 79
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 41645 41722 51841 41722 79
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 41654 41732 51850 41732 79
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 41654 36220 51811 36220 79
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 41620 47077 41620 30876 39
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 41620 30876 51890 30876 39
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 51890 30876 51890 47077 39
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 51890 47077 41620 47077 39
+De 21 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 51890 47077 41620 47077 39
+De 27 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 51890 30876 51890 47077 39
+De 27 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 41620 30876 51890 30876 39
+De 27 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 41620 47077 41620 30876 39
+De 27 0 900 0 0
+$EndDRAWSEGMENT
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

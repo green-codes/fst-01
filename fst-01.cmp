@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Fri 09 Sep 2011 17:12:22 JST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 29 Sep 2011 17:16:53 JST
 
 BeginCmp
 TimeStamp = /4E2CD2B1;
@@ -71,6 +71,13 @@ IdModule  = c_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /4E8423B4;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E2D76AF;
 Reference = D1;
 ValeurCmp = LED;
@@ -85,24 +92,24 @@ IdModule  = USB-A-PLUG;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E6998B6;
-Reference = K1;
-ValeurCmp = CONN_4;
-IdModule  = SIL-4-2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4E32185E;
-Reference = K2;
+Reference = K1;
 ValeurCmp = CONN_3;
 IdModule  = SIL-3-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E699F67;
+TimeStamp = /4E84249C;
+Reference = K2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2-0;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8424A4;
 Reference = K3;
-ValeurCmp = CONN_3;
-IdModule  = SIL-3-3;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2-2;
 EndCmp
 
 BeginCmp
@@ -134,10 +141,17 @@ IdModule  = SOT363;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E27DEE5;
+TimeStamp = /4E8414CF;
+Reference = U4;
+ValeurCmp = SST25VF032B;
+IdModule  = WSON8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E82CD9F;
 Reference = X1;
-ValeurCmp = 8MHz;
-IdModule  = ABM3B;
+ValeurCmp = 12MHz;
+IdModule  = ABM8G;
 EndCmp
 
 EndListe

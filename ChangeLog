@@ -1,3 +1,25 @@
+2011-09-30  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Follow the change of circuit.  Move power circuit
+	parts to south.
+
+	* fst-01.net, fst-01.cmp, fst-01.pro: Update.
+
+	* fst-01.sch: Use Xtal with ground.  Add SPI flash memory.
+	Use PB0 for LED.
+
+	* eco2-pcb-outline.brd: New.  PCB outline and cut line for
+	panelizing.
+
+	* library/crystal-gnd.lib: New.  Xtal with ground.
+	* library/sst25vf032b.lib: New.  SPI Flash memory.
+
+	* module/ABM8G.mod: New.  Small foopprint XTAL 12MHz.
+	* module/SIL-2-0.mod: New.
+	* module/SIL-2-2.mod: New.
+	* module/SIL-4-3.mod: New.
+	* module/WSON8.mod: New.
+
 2011-09-12  NIIBE Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: Updated.  Improve modules positions, add vias for

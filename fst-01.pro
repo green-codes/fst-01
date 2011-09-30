@@ -1,6 +1,6 @@
-update=Fri 09 Sep 2011 17:12:54 JST
+update=Thu 29 Sep 2011 17:16:05 JST
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -35,18 +35,15 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=device
-LibName2=stm32f103
-LibName3=stf202
+LibName1=crystal-gnd
+LibName2=nuf2221w1
+LibName3=stm32f103
 LibName4=cat6217-330
-LibName5=conn
+LibName5=stf202
 LibName6=power
-LibName7=nuf2221w1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName7=device
+LibName8=conn
+LibName9=sst25vf032b
 [pcbnew]
 version=1
 PadDrlX=400
@@ -65,7 +62,6 @@ TxtLar=120
 MSegLar=59
 LastNetListRead=fst-01.net
 [pcbnew/libraries]
-LibDir=module
 LibName1=SIL-4-2
 LibName2=SIL-3-3
 LibName3=SMT_RES
@@ -78,3 +74,13 @@ LibName9=SOT363
 LibName10=LED0603
 LibName11=SM0805
 LibName12=QFN36
+LibName13=ABM8G
+LibName14=WSON8
+LibName15=SIL-2-0
+LibName16=SIL-2-2
+LibDir=module
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
