@@ -1,6 +1,6 @@
-update=Thu 29 Sep 2011 17:16:05 JST
+update=Thu 20 Oct 2011 11:52:23 JST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -44,6 +44,11 @@ LibName6=power
 LibName7=device
 LibName8=conn
 LibName9=sst25vf032b
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=400
@@ -59,9 +64,10 @@ VEgarde=60
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=59
+MSegLar=150
 LastNetListRead=fst-01.net
 [pcbnew/libraries]
+LibDir=module
 LibName1=SIL-4-2
 LibName2=SIL-3-3
 LibName3=SMT_RES
@@ -78,9 +84,4 @@ LibName13=ABM8G
 LibName14=WSON8
 LibName15=SIL-2-0
 LibName16=SIL-2-2
-LibDir=module
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName17=FST-LOGO

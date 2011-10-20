@@ -1,3 +1,14 @@
+2011-10-20  Niibe Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Use new ABM8G.mod and FST-LOGO.mod.
+	Fix +3.3V line on the back.
+
+	* fst-01.pro: Add module/FST-LOGO.mod.
+
+	* module/ABM8G.mod: Silk outline move to outside.
+
+	* module/FST-LOGO.mod: New.
+
 2011-10-19  Niibe Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: Move the via out of capacitor pad.
