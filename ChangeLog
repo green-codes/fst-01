@@ -1,3 +1,9 @@
+2011-11-14  Niibe Yutaka  <gniibe@fsij.org>
+
+	* Version 1.00.
+
+	* datasheet: New.
+
 2011-10-20  Niibe Yutaka  <gniibe@fsij.org>
 
 	* fst-01.brd: Use new ABM8G.mod and FST-LOGO.mod.

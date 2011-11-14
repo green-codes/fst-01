@@ -1,7 +1,85 @@
-This is FST-01 PCB for KiCAD.
+Flying Stone Tiny 01 (FST-01) PCB Design
 
-I publish the files for KiCAD.  I don't decide license yet.
+							   Version 1.00
+							     2011-11-14
+						           Niibe Yutaka
+						Flying Stone Technology
 
+What's FST-01?
+==============
+
+Flying Stone Tiny 01 (FST-01) is a USB 32-bit computer by STM32
+processor.  It has minimalist design.  MCU running at 72MHz, SPI flash
+memory, SWD port for main flash ROM update, and two I/O pins.
+That's all.
+
+This is designed mainly for our own projects: Gnuk, NeuG, and Gone.
+
+
+These files are for what?
+=========================
+
+This is FST-01 PCB design for KiCAD.
+
+I am using kicad of 0.0.20110616-1 in Debian.
+
+
+Files
+=====
+
+    README:      This file
+    ChangeLog:   History of this project
+    fst-01.pro:  Project file of KiCAD
+    fst-01.sch:  Schematic
+    fst-01.cmp:  Component
+    fst-01.net:  Netlist
+    fst-01.stf:  Component and Module
+    fst-01.brd:  PCB design
+    eco2-pcb-outline.brd: outline of three boards into one
+    library: schematic library
+    module: footprint modules for PCB
+
+    datasheet:   Datasheets of parts
+
+Note that files under datasheet directory is copyrighted by vendors.
+
+
+Terms and conditions
+====================
+
+FST-01 is my work, but I am not sure how and what I can demand for
+users.  I think that PCB design and files can be copyrighted.
+
+I assume that users don't use verbatim copy of this design.  It
+includes my trade maks of "FST-01" and Flying Stone logo.  Please just
+don't include silk bottom layer, if you build your own PCB.
+
+I would like to ask users to keep the design as "Open Hardware".  See
+the page for the definition of "Open Hardware":
+
+    http://www.opencollector.org/Whyfree/open_hardware.html
+
+That is, interface, design itself, and tools for the design should be
+free.  Tools should be Free Software, in my opinion.  It is not enough
+if tools are available by download with no cost.  Source code of tools
+should be available and modification can be permitted.
+
+Nevertheless, schematic design is distributed under Creative Commons
+Attribution 3.0 Unported License (CC BY 3.0).  See:
+
+    http://creativecommons.org/licenses/by/3.0/
+
+Schematic design can be used for any purpose and you don't need to
+open your modifications to my design.
+
+For PCB, it is distributed under Creative Commons
+Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).  See:
+
+    http://creativecommons.org/licenses/by-sa/3.0/
+
+
+External modules
+================
 
 For module/SMT_CAP.mod and module/SMT_RES.mod, module drawings are
 copied from w_smd_cap.mod and w_smd_resistors.mod by W.Lain.  Files
@@ -10,10 +88,19 @@ are available at:
    http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
 
 Its copyright notice is like following:
-
+---------------------------------------------------------------------
 Kicad Library by W. Lain - kcswalter@member.fsf.org
 
-This library is released under the terms of the Creative Commons license v3.0, Attribution-Share Alike.
+This library is released under the terms of the Creative Commons
+license v3.0, Attribution-Share Alike.
 
-The author holds no responsibility for any damage that can be caused by the usage of this library. You are however welcome to report any error or discrepance to the author, provided that you give also the correct information and its source (i.e. the correct datasheet).
-Note that the author used publicly available data sheets from many different companies, and that package dimensions, pin numeration and schematic symbols may vary slightly between companies.
+The author holds no responsibility for any damage that can be caused
+by the usage of this library. You are however welcome to report any
+error or discrepance to the author, provided that you give also the
+correct information and its source (i.e. the correct datasheet).
+
+Note that the author used publicly available data sheets from many
+different companies, and that package dimensions, pin numeration and
+schematic symbols may vary slightly between companies.
+---------------------------------------------------------------------
+-- 
