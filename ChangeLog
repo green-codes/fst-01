@@ -1,3 +1,8 @@
+2012-09-10  Niibe Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Change the board size bigger a bit to match the
+	enclosure.
+
 2011-11-14  Niibe Yutaka  <gniibe@fsij.org>
 
 	* Version 1.00.
