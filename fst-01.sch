@@ -78,7 +78,7 @@ F 3 "" H 4150 7500 60  0001 C CNN
 	1    4150 7500
 	1    0    0    -1  
 $EndComp
-Text Label 4580 6450 0    60   ~ 0
+Text Label 4350 6450 0    60   ~ 0
 NSS
 $Comp
 L GND #PWR03
@@ -135,18 +135,16 @@ F 3 "" H 2850 4300 60  0001 C CNN
 	1    2850 4300
 	0    1    1    0   
 $EndComp
-Text Label 4920 7040 0    60   ~ 0
+Text Label 4395 7040 0    60   ~ 0
 MOSI
-Text Label 4810 6950 0    60   ~ 0
+Text Label 4400 6950 0    60   ~ 0
 CLK
-Text Label 4640 6570 0    60   ~ 0
+Text Label 4450 6570 0    60   ~ 0
 MISO
 Text Label 4050 6050 1    60   ~ 0
 PA3
 Text Label 3950 5875 1    60   ~ 0
 PA2
-Text Label 7975 4650 0    60   ~ 0
-USB_EN
 $Comp
 L STM32F103TB U1
 U 1 1 4E68666C
@@ -636,9 +634,7 @@ Wire Wire Line
 	3550 7400 3550 7350
 Connection ~ 3210 7040
 Wire Wire Line
-	3210 6950 3210 7040
-Wire Wire Line
-	3210 7040 3210 7140
+	3210 6950 3210 7140
 Wire Wire Line
 	4900 5800 4900 6450
 Wire Wire Line
@@ -672,15 +668,11 @@ Wire Wire Line
 Wire Wire Line
 	3550 3300 4800 3300
 Wire Wire Line
-	5600 5850 6100 5850
-Wire Wire Line
-	6100 5850 6450 5850
+	5600 5850 6450 5850
 Wire Wire Line
 	5600 5850 5600 5800
 Wire Wire Line
-	6450 5350 6450 5450
-Wire Wire Line
-	6450 5450 6450 5500
+	6450 5350 6450 5500
 Wire Wire Line
 	3950 4450 3200 4450
 Wire Wire Line
@@ -704,9 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2800 5950 3400
 Wire Wire Line
-	7050 2250 7200 2250
-Wire Wire Line
-	7200 2250 7550 2250
+	7050 2250 7550 2250
 Wire Wire Line
 	7550 3650 7750 3650
 Wire Wire Line
@@ -729,21 +719,15 @@ Connection ~ 3500 4950
 Wire Wire Line
 	3300 4950 3300 4900
 Wire Wire Line
-	3300 4950 3500 4950
-Wire Wire Line
-	3500 4950 3800 4950
+	3300 4950 3800 4950
 Connection ~ 3700 4550
 Wire Wire Line
-	3500 4550 3700 4550
-Wire Wire Line
-	3700 4550 3950 4550
+	3500 4550 3950 4550
 Wire Wire Line
 	3700 4650 3700 4550
 Connection ~ 6850 4050
 Wire Wire Line
-	6800 4050 6850 4050
-Wire Wire Line
-	6850 4050 7050 4050
+	6800 4050 7050 4050
 Wire Wire Line
 	7050 4050 7050 4150
 Wire Wire Line
@@ -757,9 +741,7 @@ Wire Wire Line
 	2375 4600 2375 4750
 Connection ~ 2850 4600
 Wire Wire Line
-	2800 4600 2850 4600
-Wire Wire Line
-	2850 4600 3100 4600
+	2800 4600 3100 4600
 Wire Wire Line
 	3100 4600 3100 4350
 Wire Wire Line
@@ -767,9 +749,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4000 3100 4250
 Wire Wire Line
-	2800 4000 2850 4000
-Wire Wire Line
-	2850 4000 3100 4000
+	2800 4000 3100 4000
 Connection ~ 2850 4000
 Wire Wire Line
 	2375 4150 2375 4000
@@ -785,9 +765,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 4050 3450 3950
 Wire Wire Line
-	3450 3950 3550 3950
-Wire Wire Line
-	3550 3950 3600 3950
+	3450 3950 3600 3950
 Wire Wire Line
 	3950 4650 3800 4650
 Wire Wire Line
@@ -795,9 +773,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4250 3950 4250
 Wire Wire Line
-	6450 3900 6450 4050
-Wire Wire Line
-	6450 4050 6450 4150
+	6450 3900 6450 4150
 Wire Wire Line
 	5500 5800 5500 5950
 Wire Wire Line
@@ -826,13 +802,9 @@ Connection ~ 7750 3350
 Wire Wire Line
 	7650 3350 7650 3500
 Wire Wire Line
-	3950 3900 3950 3950
+	3950 3900 3950 4150
 Wire Wire Line
-	3950 3950 3950 4150
-Wire Wire Line
-	7750 3350 7750 3650
-Wire Wire Line
-	7750 3650 7750 4300
+	7750 3350 7750 4300
 Connection ~ 7750 3650
 Wire Wire Line
 	9400 4850 9400 4950
@@ -845,17 +817,13 @@ Wire Wire Line
 Wire Wire Line
 	8950 5050 9650 5050
 Wire Wire Line
-	6450 4650 9200 4650
-Wire Wire Line
 	9200 4650 9200 4950
 Wire Wire Line
 	9200 4950 8950 4950
 Wire Wire Line
 	3200 4450 3200 5100
 Wire Wire Line
-	6450 5800 6450 5850
-Wire Wire Line
-	6450 5850 6450 5950
+	6450 5800 6450 5950
 Connection ~ 6450 5850
 Connection ~ 3950 3950
 Wire Wire Line
@@ -884,16 +852,14 @@ Wire Wire Line
 Wire Wire Line
 	5100 6570 5100 5800
 Wire Wire Line
-	4290 6710 4290 6760
-Wire Wire Line
-	4290 6760 4290 6850
+	4290 6710 4290 6850
 Connection ~ 4290 6760
 Wire Wire Line
 	5300 5800 5300 6300
 Wire Wire Line
-	4150 7500 4150 7400
+	4150 7400 4150 7500
 Wire Wire Line
-	4150 7400 3950 7400
+	3900 7400 4150 7400
 Wire Wire Line
 	7200 2300 7200 2250
 Wire Wire Line
@@ -912,4 +878,34 @@ Wire Wire Line
 	2800 5675 2650 5675
 Wire Wire Line
 	2650 5775 2800 5775
+Wire Wire Line
+	3550 7400 3600 7400
+Wire Notes Line
+	2700 6375 4725 6375
+Wire Notes Line
+	4725 6375 4725 7700
+Wire Notes Line
+	4725 7700 2700 7700
+Wire Notes Line
+	2700 7700 2700 6375
+Text Notes 2750 7675 0    60   ~ 0
+Optional serial flash ROM
+$Comp
+L +3V3 #PWR?
+U 1 1 57C41036
+P 9200 4650
+F 0 "#PWR?" H 9200 4610 30  0001 C CNN
+F 1 "+3V3" H 9200 4760 30  0000 C CNN
+F 2 "" H 9200 4650 60  0001 C CNN
+F 3 "" H 9200 4650 60  0001 C CNN
+	1    9200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5350 9860 5350
+Wire Wire Line
+	9860 5350 9860 5305
+Wire Wire Line
+	9860 5305 9500 5305
+Connection ~ 9500 5300
 $EndSCHEMATC
