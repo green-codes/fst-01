@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name FST)(type KiCad)(uri ${KIPRJMOD}/module)(options "")(descr SOT-23-5))
+  (lib (name FST)(type KiCad)(uri ${KIPRJMOD}/module.pretty)(options "")(descr "Flying Stone Technology Library"))
 )
