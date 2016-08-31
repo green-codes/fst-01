@@ -40,8 +40,8 @@
   (setup
     (last_trace_width 0.20066)
     (trace_clearance 0.20066)
-    (zone_clearance 0.20066)
-    (zone_45_only no)
+    (zone_clearance 0.508)
+    (zone_45_only yes)
     (trace_min 0.20066)
     (segment_width 0.381)
     (edge_width 0.381)
@@ -64,7 +64,7 @@
     (pad_to_mask_clearance 0.1524)
     (aux_axis_origin 127 98.9965)
     (grid_origin 127 98.9965)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -376,7 +376,7 @@
     )
   )
 
-  (module FST:SOT23-5 (layer Front) (tedit 57C65825) (tstamp 4E6881CA)
+  (module FST:SOT23-5 (layer Front) (tedit 57C67228) (tstamp 4E6881CA)
     (at 123.8504 102.1715 90)
     (descr "SMALL OUTLINE TRANSISTOR")
     (tags "SMALL OUTLINE TRANSISTOR")
@@ -385,7 +385,7 @@
     (fp_text reference U2 (at 2.032 1.4605 90) (layer F.SilkS)
       (effects (font (size 0.8001 0.8001) (thickness 0.1524)))
     )
-    (fp_text value LP2985-33DBVR (at -0.0127 0 90) (layer F.SilkS)
+    (fp_text value LP2985-33DBVR (at -0.0127 0 90) (layer F.SilkS) hide
       (effects (font (size 0.254 0.254) (thickness 0.0254)))
     )
     (fp_line (start -1.19888 1.4986) (end -0.6985 1.4986) (layer F.SilkS) (width 0.06604))
@@ -1356,8 +1356,8 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 125.01626 105.6767) (xy 125.0188 100.5713) (xy 126.0348 100.5713) (xy 126.0348 95.5421) (xy 126.3396 95.5421)
-        (xy 126.3396 92.3925) (xy 105.30586 92.37726) (xy 105.30586 105.6767)
+        (xy 126.3396 92.3925) (xy 126.3396 95.5421) (xy 126.0348 95.5421) (xy 126.0348 100.5713) (xy 125.0188 100.5713)
+        (xy 125.01626 105.6767) (xy 105.30586 105.6767) (xy 105.30586 92.37726) (xy 126.3396 92.3925)
       )
     )
     (filled_polygon
@@ -1452,17 +1452,6 @@
         (xy 123.86818 100.01536) (xy 123.86818 100.03536) (xy 124.613035 100.03536) (xy 124.77115 99.877245) (xy 124.77115 99.717177)
         (xy 124.800839 99.697339) (xy 124.900836 99.597341) (xy 124.900839 99.597339) (xy 124.993065 99.459313) (xy 125.02545 99.2965)
         (xy 125.02545 99.188155)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 117.29974 97.44456) (xy 119.12346 97.44456) (xy 119.12346 97.42456) (xy 119.38254 97.42456) (xy 119.38254 97.44456)
-        (xy 119.40254 97.44456) (xy 119.40254 97.70364) (xy 119.38254 97.70364) (xy 119.38254 99.52736) (xy 119.40254 99.52736)
-        (xy 119.40254 99.78644) (xy 119.38254 99.78644) (xy 119.38254 99.80644) (xy 119.12346 99.80644) (xy 119.12346 99.78644)
-        (xy 117.29974 99.78644) (xy 117.29974 99.80644) (xy 117.04066 99.80644) (xy 117.04066 99.78644) (xy 117.02066 99.78644)
-        (xy 117.02066 99.52736) (xy 117.04066 99.52736) (xy 117.04066 97.70364) (xy 117.29974 97.70364) (xy 117.29974 99.52736)
-        (xy 119.12346 99.52736) (xy 119.12346 97.70364) (xy 117.29974 97.70364) (xy 117.04066 97.70364) (xy 117.02066 97.70364)
-        (xy 117.02066 97.44456) (xy 117.04066 97.44456) (xy 117.04066 97.42456) (xy 117.29974 97.42456)
       )
     )
     (filled_polygon
@@ -1586,6 +1575,17 @@
         (xy 126.10084 104.4575) (xy 126.12084 104.4575) (xy 126.12084 104.7115) (xy 126.10084 104.7115) (xy 126.10084 104.7315)
         (xy 125.84684 104.7315) (xy 125.84684 104.7115) (xy 125.82684 104.7115) (xy 125.82684 104.4575) (xy 125.84684 104.4575)
         (xy 125.84684 104.4375) (xy 126.10084 104.4375)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer Front) (tstamp 57C66D0D) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 116.459 96.7105) (xy 119.634 96.7105) (xy 119.634 100.2665) (xy 116.459 100.2665)
       )
     )
   )
