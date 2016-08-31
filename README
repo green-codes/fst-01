@@ -1,7 +1,7 @@
-Flying Stone Tiny 01 (FST-01) PCB Design
+Flying Stone Tiny 01 (FST-01G) PCB Design
 
-							   Version 1.00
-							     2011-11-14
+							   Version 2.00
+							     2016-09-XX
 						           Niibe Yutaka
 						Flying Stone Technology
 
@@ -15,13 +15,17 @@ That's all.
 
 This is designed mainly for our own projects: Gnuk, NeuG, and Gone.
 
+FST-01G is another revision, because KiCAD has been changed and I changed
+LDO regulator.
+
+
 
 These files are for what?
 =========================
 
 This is FST-01 PCB design for KiCAD.
 
-I am using kicad of 0.0.20110616-1 in Debian.
+I am using kicad of 4.0.2+dfsg1-4 in Debian.
 
 
 Files
@@ -31,13 +35,11 @@ Files
     ChangeLog:   History of this project
     fst-01.pro:  Project file of KiCAD
     fst-01.sch:  Schematic
-    fst-01.cmp:  Component
     fst-01.net:  Netlist
     fst-01.stf:  Component and Module
-    fst-01.brd:  PCB design
-    eco2-pcb-outline.brd: outline of three boards into one
+    fst-01.kicad_pcb:  PCB design
     library: schematic library
-    module: footprint modules for PCB
+    module.pretty: footprint modules for PCB
 
     datasheet:   Datasheets of parts
 
@@ -51,8 +53,8 @@ FST-01 is my work, but I am not sure how and what I can demand for
 users.  I think that PCB design and files can be copyrighted.
 
 I assume that users don't use verbatim copy of this design.  It
-includes my trade maks of "FST-01" and Flying Stone logo.  Please just
-don't include silk bottom layer, if you build your own PCB.
+includes my trade marks of "FST-01G" and Flying Stone logo.  Please
+just don't include silk bottom layer, if you build your own PCB.
 
 I would like to ask users to keep the design as "Open Hardware".  See
 the page for the definition of "Open Hardware":
