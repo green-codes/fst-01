@@ -1,5 +1,6 @@
 (module c_0402 (layer F.Cu) (tedit 4E8543D2)
   (descr "SMT capacitor, 0402")
+  (attr smd)
   (fp_text reference >NAME (at -2.1082 0) (layer F.SilkS)
     (effects (font (size 0.59944 0.59944) (thickness 0.14986)))
   )
