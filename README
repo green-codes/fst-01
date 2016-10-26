@@ -1,7 +1,7 @@
 Flying Stone Tiny 01 (FST-01G) PCB Design
 
 							   Version 2.00
-							     2016-09-XX
+							     2016-10-26
 						           Niibe Yutaka
 						Flying Stone Technology
 
@@ -15,8 +15,10 @@ That's all.
 
 This is designed mainly for our own projects: Gnuk, NeuG, and Gone.
 
-FST-01G is another revision, because KiCAD has been changed and I changed
-LDO regulator.
+FST-01G is an updated revision, because LDO regulator was
+discontinued.  Size of PCB, handling of USB pin and USB frame ground
+were also changed.  SPI flash memory is optional in this revision.
+Please note that the format of KiCAD has been changed.
 
 
 
@@ -36,7 +38,7 @@ Files
     fst-01.pro:  Project file of KiCAD
     fst-01.sch:  Schematic
     fst-01.net:  Netlist
-    fst-01.stf:  Component and Module
+    fst-01.xml:  Component and Module
     fst-01.kicad_pcb:  PCB design
     library: schematic library
     module.pretty: footprint modules for PCB
