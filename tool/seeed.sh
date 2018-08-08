@@ -1,7 +1,7 @@
 #! /bin/sh
 
 PROJECT="fst-01"
-PROJECT_CAP="FST-01G"
+PROJECT_CAP="FST-01SZ"
 
 cp -p $PROJECT-Front.gtl $PROJECT_CAP.GTL
 cp -p $PROJECT-F.Mask.gts $PROJECT_CAP.GTS
@@ -15,4 +15,4 @@ cp -p $PROJECT-Edge.Cuts.gm1 $PROJECT_CAP.GML
 cp -p $PROJECT.drl $PROJECT_CAP.TXT
 
 # -l: translate LF to CRLF
-zip -l ${PROJECT}g.zip $PROJECT_CAP.*
+zip -l ${PROJECT}sz.zip $PROJECT_CAP.*

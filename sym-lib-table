@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name fst-01-rescue)(type Legacy)(uri ${KIPRJMOD}/fst-01-rescue.lib)(options "")(descr ""))
+  (lib (name crystal-gnd)(type Legacy)(uri ${KIPRJMOD}/library/crystal-gnd.lib)(options "")(descr ""))
+  (lib (name nuf2221w1)(type Legacy)(uri ${KIPRJMOD}/library/nuf2221w1.lib)(options "")(descr ""))
+  (lib (name stm32f103)(type Legacy)(uri ${KIPRJMOD}/library/stm32f103.lib)(options "")(descr ""))
+  (lib (name sst25vf032b)(type Legacy)(uri ${KIPRJMOD}/library/sst25vf032b.lib)(options "")(descr ""))
+  (lib (name lp2985-33)(type Legacy)(uri ${KIPRJMOD}/library/lp2985-33.lib)(options "")(descr ""))
+)

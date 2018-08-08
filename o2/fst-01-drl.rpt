@@ -1,0 +1,23 @@
+Drill report for /home/gniibe/work/gnuk/fst-01/fst-01.kicad_pcb
+Created on 2018年07月17日 13時16分07秒
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Front                     front
+    L2 :  Back                      back
+
+
+Drill file 'fst-01.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.50mm  0.020"  (2 holes)
+    T2  0.60mm  0.024"  (16 holes)
+
+    Total plated holes count 18
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

@@ -1,20 +1,8 @@
-update=Wed 31 Aug 2016 04:11:25 PM JST
+update=2018年06月29日 10時23分47秒
 version=1
 last_client=kicad
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=library
-[eeschema/libraries]
-LibName1=crystal-gnd
-LibName2=nuf2221w1
-LibName3=stm32f103
-LibName4=power
-LibName5=device
-LibName6=conn
-LibName7=sst25vf032b
-LibName8=library/lp2985-33
 [cvpcb]
 version=1
 NetIExt=net
@@ -47,3 +35,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
