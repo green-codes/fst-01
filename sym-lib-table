@@ -5,4 +5,5 @@
   (lib (name stm32f103)(type Legacy)(uri ${KIPRJMOD}/library/stm32f103.lib)(options "")(descr ""))
   (lib (name sst25vf032b)(type Legacy)(uri ${KIPRJMOD}/library/sst25vf032b.lib)(options "")(descr ""))
   (lib (name lp2985-33)(type Legacy)(uri ${KIPRJMOD}/library/lp2985-33.lib)(options "")(descr ""))
+  (lib (name drv5032)(type Legacy)(uri ${KIPRJMOD}/library/drv5032.lib)(options "")(descr ""))
 )
