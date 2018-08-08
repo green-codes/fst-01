@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2016-08-31"
-Rev "G"
-Comp ""
+Date "2018-08-08"
+Rev "SZ"
+Comp "Flying Stone Technology"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -199,10 +199,10 @@ F 3 "" H 3200 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fst-01-rescue:C C3
+L fst-01-rescue:C C5
 U 1 1 4E2D6A2C
 P 3200 5250
-F 0 "C3" H 3250 5350 50  0000 L CNN
+F 0 "C5" H 3250 5350 50  0000 L CNN
 F 1 "0.1uF" H 3250 5150 50  0000 L CNN
 F 2 "FST:c_0402" H 3200 5250 60  0001 C CNN
 F 3 "" H 3200 5250 60  0001 C CNN
@@ -221,10 +221,10 @@ F 3 "" H 6450 5350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fst-01-rescue:C C6
+L fst-01-rescue:C C7
 U 1 1 4E2D6573
 P 6450 5650
-F 0 "C6" H 6500 5750 50  0000 L CNN
+F 0 "C7" H 6500 5750 50  0000 L CNN
 F 1 "0.1uF" H 6500 5550 50  0000 L CNN
 F 2 "FST:c_0402" H 6450 5650 60  0001 C CNN
 F 3 "" H 6450 5650 60  0001 C CNN
@@ -254,10 +254,10 @@ F 3 "" H 3300 4900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fst-01-rescue:C C4
+L fst-01-rescue:C C1
 U 1 1 4E2D63F9
 P 3500 4750
-F 0 "C4" H 3550 4850 50  0000 L CNN
+F 0 "C1" H 3550 4850 50  0000 L CNN
 F 1 "0.1uF" H 3550 4650 50  0000 L CNN
 F 2 "FST:c_0402" H 3500 4750 60  0001 C CNN
 F 3 "" H 3500 4750 60  0001 C CNN
@@ -287,10 +287,10 @@ F 3 "" H 3950 3900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fst-01-rescue:C C5
+L fst-01-rescue:C C4
 U 1 1 4E2D167B
 P 3750 3950
-F 0 "C5" H 3800 4050 50  0000 L CNN
+F 0 "C4" H 3800 4050 50  0000 L CNN
 F 1 "0.1uF" H 3800 3850 50  0000 L CNN
 F 2 "FST:c_0402" H 3750 3950 60  0001 C CNN
 F 3 "" H 3750 3950 60  0001 C CNN
@@ -320,10 +320,10 @@ F 3 "" H 7050 4150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fst-01-rescue:C C7
+L fst-01-rescue:C C6
 U 1 1 4E2D1296
 P 6650 4050
-F 0 "C7" H 6700 4150 50  0000 L CNN
+F 0 "C6" H 6700 4150 50  0000 L CNN
 F 1 "0.1uF" H 6700 3950 50  0000 L CNN
 F 2 "FST:c_0402" H 6650 4050 60  0001 C CNN
 F 3 "" H 6650 4050 60  0001 C CNN
@@ -430,10 +430,10 @@ F 3 "" H 2650 4600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fst-01-rescue:C C1
+L fst-01-rescue:C C3
 U 1 1 4E2CD2B1
 P 2650 4000
-F 0 "C1" H 2700 4100 50  0000 L CNN
+F 0 "C3" H 2700 4100 50  0000 L CNN
 F 1 "27pF" H 2700 3900 50  0000 L CNN
 F 2 "FST:c_0402" H 2650 4000 60  0001 C CNN
 F 3 "" H 2650 4000 60  0001 C CNN
