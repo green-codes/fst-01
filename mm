@@ -1,3 +1,8 @@
+U1 solder mask/paste change 
+Add U4 hall effect sensor
+Move parts for PCBA which requires 1mm clearance
+PCB size (0.254mm plus to left side)
+-------------------------------------------
 PCB size (bigger 12.6238 mm, 0.127mm plus to right side)
 J1 change (place of pads, size of holes to 0.5mm)
 Move parts 0.762 mm for J1 change (except LED and R1)
