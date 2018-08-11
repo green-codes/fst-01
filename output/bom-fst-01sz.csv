@@ -1,0 +1,11 @@
+Designator,Manufacturer Part Number,Quantity,Spec.,Comment
+R1,RC0402FR-07470RL,1,"470R, 0402",OPL
+"C1,C2,C3,C4,C5",CC0402KRX5R6BB104,5,"0.1uF, 0402, 10V",OPL
+"C6,C7",CC0603KRX5R6BB475,2,"4.7uF, 0603, 10V",OPL
+X1,"Epson;FA-20H 12MHz",1,12MHz,OPL
+D1,19-217-BHC-ZL1M2RY-3T,1,"LED Blue, Vf=2.5-3.1V, 0603",OPL
+U1,GD32F103TB,1,QFN36,"Giga Device"
+U2,MCP1700-3302E,1,"LDO, 3.3V, SOT23","Microchip"
+U3,NUF2221W1,1,"SOT363","ON Semiconductor"
+U4,DRV5032FA,1,"Hall Effect Sensor, X2SON","Texas Instruments"
+J1,ZL-272,1,"USB_A 手腕主体2.0","广东中连精密工业有限公司, ShenZhen, China"
