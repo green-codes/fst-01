@@ -423,7 +423,7 @@
       (net 2 /D+_PLUG))
   )
 
-  (module FST:QFN36 (layer Front) (tedit 5B6CF42A) (tstamp 5B6AB00A)
+  (module FST:QFN36 (layer Front) (tedit 5B70D904) (tstamp 5B6AB00A)
     (at 118.3 98.5 180)
     (descr "Support QFN 36 pins")
     (tags QFN36)
@@ -432,7 +432,7 @@
     (fp_text reference U1 (at 0.195228 3.972431 180) (layer F.SilkS)
       (effects (font (size 0.8001 0.8001) (thickness 0.1524)))
     )
-    (fp_text value STM32F103TB (at -0.0254 2.0955 180) (layer F.SilkS) hide
+    (fp_text value GD32F103TB (at -0.0254 2.0955 180) (layer F.SilkS) hide
       (effects (font (size 0.508 0.508) (thickness 0.0762)))
     )
     (fp_line (start -2 -3) (end -3 -2) (layer Dwgs.User) (width 0.15))

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/gniibe/work/gnuk/fst-01/fst-01.sch)
-    (date "2018年08月11日 12時03分37秒")
+    (date "2018年08月13日 10時03分42秒")
     (tool "Eeschema 5.0.0-rc3+dfsg1-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref X1)
       (value 12MHz)
-      (footprint FST:ABM8G)
+      (footprint FST:FA-20H)
       (libsource (lib crystal-gnd) (part CRYSTAL) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 4E82CD9F))
@@ -106,7 +106,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 4E2CD88E))
     (comp (ref U1)
-      (value STM32F103TB)
+      (value GD32F103TB)
       (footprint FST:QFN36)
       (libsource (lib stm32f103) (part STM32F103TB) (description "STM32 Cortex-m3 MCU, 64/128 Kbytes Flash, 20 Kbytes RAM"))
       (sheetpath (names /) (tstamps /))
