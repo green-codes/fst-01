@@ -30,6 +30,8 @@ For parts which is not OPL, here are more information.
     https://item.taobao.com/item.htm?spm=a230r.1.14.16.37b72ca1EsXZ8H&id=553714950588&ns=1&abbucket=16#detail
 
 
+The part for the connector J1 is an option.
+
     ZL-272:
     "USB_A 手腕主体2.0","广东中连精密工业有限公司, ShenZhen, China"
     http://www.usbljq.com/
@@ -37,6 +39,5 @@ For parts which is not OPL, here are more information.
     Possible supplier:
     https://detail.1688.com/offer/568913556657.html?spm=a261b.2187593.0.0.63e01de6NhfCCV
 
-If sourcing ZL-272 is difficult, please omit ZL-272, I will be able to
-solder it by myself.
+Since I will solder ZL-272 by myself, don't need for this PCBA request.
 -- 
