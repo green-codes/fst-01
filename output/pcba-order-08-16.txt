@@ -1,0 +1,15 @@
+BOM
+
+    Total parts:9
+    Confirmed:9
+
+Order 	Location 	MPN/SKU 	Quantity 	Waste Qty 	Amount 	Status
+1 	R1		301012000 	1 * 10	 	5 		$0.17 	Confirmed
+2 	C1,C2,C3,C4,C5	302010037 	5 * 10 		10 		$0.90 	Confirmed
+3 	C6,C7		302010111 	2 * 10	 	5 		$0.45 	Confirmed
+4 	X1		306010127 	1 * 10	 	1 		$1.43 	Confirmed
+5 	D1		304090045 	1 * 10	 	2 		$0.72 	Confirmed
+6 	U1		GD32F103TB 	1 * 10	 	1 		$38.37 	Confirmed
+7 	U2		MCP1700-3302E/TO	1 * 10 	1 		$4.34 	Confirmed
+8 	U3		NUF2221W1T2G 	1 * 10	 	1 		$4.75 	Confirmed
+9 	U4		DRV5032FADMRR 	1 * 10	 	1 		$7.43 	Confirmed

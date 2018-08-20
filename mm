@@ -1,3 +1,6 @@
+Shape of PCB modified
+J1 hole solder mask to keep the holes
+-------------------------------------------
 U1 solder mask/paste change 
 Add U4 hall effect sensor
 Move parts for PCBA which requires 1mm clearance
