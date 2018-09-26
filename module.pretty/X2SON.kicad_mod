@@ -1,9 +1,9 @@
-(module X2SON (layer F.Cu) (tedit 5B7120E9)
+(module X2SON (layer F.Cu) (tedit 5BA9A93E)
   (attr smd)
   (fp_text reference U4 (at 1.5782 0.8887) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (fp_text value DRV5032FA (at 0 -4.6) (layer F.Fab)
+  (fp_text value DRV5032FA (at 0 -4.6) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0.55 -0.7) (end 0.55 0.7) (layer Dwgs.User) (width 0.15))
