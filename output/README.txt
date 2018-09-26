@@ -21,7 +21,8 @@ For PCBA:
 
 For parts which is not OPL, here are more information.
 
-    GD32F103TBU6:
+(1) GD32F103TBU6
+
     Giga Device 
     http://www.gigadevice.com/products/microcontrollers/gd32/arm-cortex-m3/mainstream-line/gd32f103-series/gd32f103tbu6/
 
@@ -33,7 +34,8 @@ For parts which is not OPL, here are more information.
     https://detail.1688.com/offer/568527808820.html
 
 
-    ZL-272:
+(2) ZL-272
+
     USB_A 手腕主体2.0
     广东中连精密工业有限公司, ShenZhen, China
     http://www.usbljq.com/m/?/goods/id-403/index.html

@@ -1,3 +1,11 @@
+Tweak shape of PCB more
+J1 change (place of pads)
+C7 change (vertical)
+U2 move up
+X1 slightly up, add via
+3V3 lines improvement
+Silk changes
+-------------------------------------------
 Shape of PCB modified
 J1 hole solder mask to keep the holes
 -------------------------------------------
