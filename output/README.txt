@@ -46,4 +46,8 @@ For parts which is not OPL, here are more information.
 
     深圳市光明新区公明三杰盛电子经营部 
     https://detail.1688.com/offer/568913556657.html
+
+(3) MCP1700-3302E/TT
+
+https://www.digikey.com/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677
 -- 
