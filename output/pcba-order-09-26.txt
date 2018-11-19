@@ -1,0 +1,33 @@
+Order 	Location 	MPN/SKU 	Quantity 	Waste Qty 	Amount 	Status
+1 	U2		MCP1700-3302E/TT 	1 * 10 	0 	$5.00 	Confirmed
+2 	U4		DRV5032FADMRR 	1 * 10 	1 	$7.48 	Confirmed
+3 	U1		GD32F103TBU6 	1 * 10 	0 	$15.00 	Confirmed
+4 	J1		ZL-272 	1 * 10 	1 	$1.10 	Confirmed
+5 	X1		306010127 	1 * 10 	1 	$1.43 	Confirmed
+6 	D1		304090045 	1 * 10 	2 	$0.12 	Confirmed
+7 	R1		301010012 	1 * 10 	5 	$0.15 	Confirmed
+8 	C6,C7		302010111 	2 * 10 	5 	$0.25 	Confirmed
+9 	C1,C2,C3,C4,C5	302010037 	5 * 10 	10 	? 	Confirmed
+10 	U3		NUF2221W1T2G 	1 * 10	1 	$4.75
+
+
+================= From web order, which was wrong for C1...C5 and missing U3
+BOM
+
+    Total parts:9
+    Confirmed:9
+
+Order 	Location 	MPN/SKU 	Quantity 	Waste Qty 	Amount 	Status
+1 	U2		MCP1700-3302E/TT 	1 * 10 	0 	$5.00 	Confirmed
+2 	U4		DRV5032FADMRR 	1 * 10 	1 	$7.48 	Confirmed
+3 	U1		GD32F103TBU6 	1 * 10 	0 	$15.00 	Confirmed
+4 	J1		ZL-272 	1 * 10 	1 	$1.10 	Confirmed
+5 	X1		306010127 	1 * 10 	1 	$1.43 	Confirmed
+6 	D1		304090045 	1 * 10 	2 	$0.12 	Confirmed
+7 	R1		301010012 	1 * 10 	5 	$0.15 	Confirmed
+8 	C6,C7		302010111 	2 * 10 	5 	$0.25 	Confirmed
+9 	C1,C2,C3,C4,C5	302010004 	5 * 10 	10 	$6.00 	Confirmed
+
+Missing, should be added.
+
+10 	U3		NUF2221W1T2G 	1 * 10	 	1 		$4.75
