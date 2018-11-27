@@ -1,24 +1,26 @@
-Flying Stone Tiny 01 (FST-01G) PCB Design
+Flying Stone Tiny 01 (FST-01SZ) PCB Design
 
-							   Version 2.00
-							     2016-10-26
+							   Version 3.00
+							     2018-11-27
 						           Niibe Yutaka
 						Flying Stone Technology
 
 What's FST-01?
 ==============
 
-Flying Stone Tiny 01 (FST-01) is a USB 32-bit computer by STM32
-processor.  It has minimalist design.  MCU running at 72MHz, SPI flash
-memory, SWD port for main flash ROM update, and two I/O pins.
-That's all.
+Flying Stone Tiny 01 (FST-01) is a USB 32-bit computer by STM32 or
+GD32 processor.  It has minimalist design.  It is composed by MCU
+running at 72MHz or 108MHz, LED to notify a user, a hall effect sensor
+for user input, and SWD port for main flash ROM update.  That's all.
 
-This is designed mainly for our own projects: Gnuk, NeuG, and Gone.
+This is designed mainly for our own projects: Gnuk and NeuG.
 
-FST-01G is an updated revision, because LDO regulator was
-discontinued.  Size of PCB, handling of USB pin and USB frame ground
-were also changed.  SPI flash memory is optional in this revision.
-Please note that the format of KiCAD has been changed.
+FST-01SZ is the third revision, integrating feedback from users.
+
+MCU is new one from China.  Instead of offering extension I/O,
+fixed-purpose sensor is added.  Optional flash memory is removed.
+
+Please note that the format of KiCAD has been changed (again).
 
 
 
@@ -27,7 +29,7 @@ These files are for what?
 
 This is FST-01 PCB design for KiCAD.
 
-I am using kicad of 4.0.2+dfsg1-4 in Debian.
+I am using kicad of 5.0.1+dfsg1-3 in Debian.
 
 
 Files
@@ -55,39 +57,45 @@ FST-01 is my work, but I am not sure how and what I can demand for
 users.  I think that PCB design and files can be copyrighted.
 
 I assume that users don't use verbatim copy of this design.  It
-includes my trade marks of "FST-01G" and Flying Stone logo.  Please
+includes my trade marks of "FST-01SZ" and Flying Stone logo.  Please
 just don't include silk bottom layer, if you build your own PCB.
 
 I would like to ask users to keep the design as "Open Hardware".  See
-the page for the definition of "Open Hardware":
+the archived page for the definition of "Open Hardware":
 
-    http://www.opencollector.org/Whyfree/open_hardware.html
+    https://web.archive.org/web/20140407171518/http://www.opencollector.org/Whyfree/open_hardware.html
 
 That is, interface, design itself, and tools for the design should be
 free.  Tools should be Free Software, in my opinion.  It is not enough
 if tools are available by download with no cost.  Source code of tools
 should be available and modification can be permitted.
 
-Nevertheless, schematic design is distributed under Creative Commons
-Attribution 3.0 Unported License (CC BY 3.0).  See:
+Nevertheless, schematic design is distributed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).  See:
 
-    http://creativecommons.org/licenses/by/3.0/
+    https://creativecommons.org/licenses/by/4.0/
 
 Schematic design can be used for any purpose and you don't need to
-open your modifications to my design.
+publish your modifications over my design.
 
-For PCB, it is distributed under Creative Commons
+For PCB, it is distributed under the Creative Commons
 Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).  See:
 
-    http://creativecommons.org/licenses/by-sa/3.0/
+    https://creativecommons.org/licenses/by-sa/3.0/
 
 
 External modules
 ================
 
-For module/SMT_CAP.mod and module/SMT_RES.mod, module drawings are
-copied from w_smd_cap.mod and w_smd_resistors.mod by W.Lain.  Files
-are available at:
+The modules of module.pretty/c_0402.kicad_mod and
+module.pretty/c_0603.kicad_mod was the one in the original file name
+of module/SMT_CAP.mod in the version 1.00 of FST-01.
+
+The module of module.pretty/r_0402.kicad_mod was module/SMT_RES.mod
+in the version 1.00 of FST-01.
+
+Those module drawings are copied from w_smd_cap.mod and
+w_smd_resistors.mod by W.Lain.  Files were downloaded from:
 
    http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
 
