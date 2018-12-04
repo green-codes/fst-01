@@ -1,4 +1,4 @@
-update=2018年06月29日 10時23分47秒
+update=2018年11月27日 17時41分32秒
 version=1
 last_client=kicad
 [general]
@@ -25,6 +25,9 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.381
 BoardOutlineThickness=0.381
 ModuleOutlineThickness=0.381
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -32,9 +35,6 @@ PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=
+ERC_TestSimilarLabels=1
