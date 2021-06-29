@@ -1,20 +1,8 @@
-update=Wed 31 Aug 2016 04:11:25 PM JST
+update=2021 June 29, Tuesday 12:45:03
 version=1
 last_client=kicad
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=library
-[eeschema/libraries]
-LibName1=crystal-gnd
-LibName2=nuf2221w1
-LibName3=stm32f103
-LibName4=power
-LibName5=device
-LibName6=conn
-LibName7=sst25vf032b
-LibName8=library/lp2985-33
 [cvpcb]
 version=1
 NetIExt=net
@@ -37,13 +25,16 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.381
 BoardOutlineThickness=0.381
 ModuleOutlineThickness=0.381
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
 LabSize=60
+ERC_TestSimilarLabels=1
