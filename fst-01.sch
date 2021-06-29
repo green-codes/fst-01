@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "FST-01R"
 Date "2021-06-29"
-Rev "1.0"
+Rev "1.1"
 Comp "FSIJ"
 Comment1 "Improvements by M.A.S."
 Comment2 ""
