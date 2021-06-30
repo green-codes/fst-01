@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FST-01R"
-Date "2021-06-29"
-Rev "1.1"
+Date "2021-06-30"
+Rev "1.2"
 Comp "FSIJ"
 Comment1 "Improvements by M.A.S."
 Comment2 ""
@@ -109,10 +109,6 @@ Text Label 4100 6100 0    60   ~ 0
 CLK
 Text Label 4150 5720 0    60   ~ 0
 MISO
-Text Label 3750 5150 1    60   ~ 0
-PA3
-Text Label 3650 5025 1    60   ~ 0
-PA2
 Text Label 5650 5450 2    60   ~ 0
 LED
 Text Label 7350 4200 2    60   ~ 0
@@ -241,28 +237,6 @@ F 1 "GND" H 5200 5030 30  0001 C CNN
 F 2 "" H 5200 5100 60  0001 C CNN
 F 3 "" H 5200 5100 60  0001 C CNN
 	1    5200 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 4E2D6A81
-P 2900 4700
-F 0 "#PWR012" H 2900 4700 30  0001 C CNN
-F 1 "GND" H 2900 4630 30  0001 C CNN
-F 2 "" H 2900 4700 60  0001 C CNN
-F 3 "" H 2900 4700 60  0001 C CNN
-	1    2900 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 4E2D6A2C
-P 2900 4400
-F 0 "C3" H 2950 4500 50  0000 L CNN
-F 1 "0.1uF" H 2950 4300 50  0000 L CNN
-F 2 "FST:c_0402" H 2900 4400 60  0001 C CNN
-F 3 "" H 2900 4400 60  0001 C CNN
-	1    2900 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -546,8 +520,6 @@ Wire Wire Line
 	3990 6190 4900 6190
 Wire Wire Line
 	2150 3450 2150 3600
-Wire Wire Line
-	4500 4950 3750 4950
 Connection ~ 6150 4600
 Wire Wire Line
 	6150 4100 6300 4100
@@ -592,8 +564,6 @@ Wire Wire Line
 	7250 2800 7250 2500
 Wire Wire Line
 	7450 2500 7650 2500
-Wire Wire Line
-	2900 4550 2900 4700
 Wire Wire Line
 	3650 3500 2800 3500
 Wire Wire Line
@@ -694,7 +664,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 4100 8650 4100
 Wire Wire Line
-	2900 3600 2900 4250
+	2900 3600 2900 4150
 Wire Wire Line
 	6150 4950 6150 5000
 Connection ~ 6150 5000
@@ -775,8 +745,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 3200 6750 3200
 Wire Wire Line
-	6150 3200 6150 3300
-Wire Wire Line
 	2550 3750 2800 3750
 Wire Wire Line
 	2550 3150 2800 3150
@@ -833,21 +801,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 4950 4600 5600
 Wire Wire Line
-	4600 2450 4600 2175
-Wire Wire Line
-	3650 3100 3650 3300
-$Comp
-L stm32f103:STM32F103TB U1
-U 1 1 4E68666C
-P 4900 3700
-F 0 "U1" H 4000 4850 60  0000 C CNN
-F 1 "GD32F103TB" H 4850 3950 60  0000 C CNN
-F 2 "FST:QFN36" H 4900 3700 60  0001 C CNN
-F 3 "" H 4900 3700 60  0001 C CNN
-	1    4900 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	5700 1950 5700 2550
 Wire Wire Line
 	5700 2550 6950 2550
@@ -863,19 +816,6 @@ F 3 "" H 2200 4700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L fst:K3 K3
-U 1 1 60F0239E
-P 3150 5200
-F 0 "K3" V 3587 5017 60  0000 C CNN
-F 1 "K3" V 3481 5017 60  0000 C CNN
-F 2 "FST:SIL-2-2" H 3500 5050 60  0001 C CNN
-F 3 "" H 3500 5050 60  0001 C CNN
-	1    3150 5200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3650 4100 3650 5050
-$Comp
 L fst:K1 K1
 U 1 1 60F19736
 P 5550 1450
@@ -886,10 +826,6 @@ F 3 "" H 5900 1300 60  0001 C CNN
 	1    5550 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 4950 3750 5200
-Wire Wire Line
-	3750 5200 3650 5200
 Wire Wire Line
 	2350 5000 2500 5000
 Wire Wire Line
@@ -936,4 +872,63 @@ F 3 "" H 8150 4100 60  0001 C CNN
 	1    8150 4100
 	1    0    0    1   
 $EndComp
+$Comp
+L Device:R R2
+U 1 1 60DC79E7
+P 2900 4400
+F 0 "R2" H 2970 4446 50  0000 L CNN
+F 1 "510" H 2970 4355 50  0000 L CNN
+F 2 "FST:r_0402" V 2830 4400 50  0001 C CNN
+F 3 "~" H 2900 4400 50  0001 C CNN
+	1    2900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4550 3200 4550
+Wire Wire Line
+	3200 4550 3200 4100
+NoConn ~ 4500 4950
+Wire Wire Line
+	3650 5350 2750 5350
+Wire Wire Line
+	2750 5350 2750 4150
+Wire Wire Line
+	2750 4150 2900 4150
+Connection ~ 2900 4150
+Wire Wire Line
+	2900 4150 2900 4250
+Wire Wire Line
+	3650 4950 3650 5350
+Wire Wire Line
+	6150 3200 6150 3300
+Wire Wire Line
+	4600 2450 4600 2175
+Wire Wire Line
+	3650 4100 3650 4800
+Wire Wire Line
+	3650 3100 3650 3300
+$Comp
+L fst:K3 K3
+U 1 1 60DD308A
+P 3150 4950
+F 0 "K3" V 3587 4767 60  0000 C CNN
+F 1 "K3" V 3481 4767 60  0000 C CNN
+F 2 "FST:SIL-2-2" H 3500 4800 60  0001 C CNN
+F 3 "" H 3500 4800 60  0001 C CNN
+	1    3150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stm32f103:STM32F103TB U1
+U 1 1 4E68666C
+P 4900 3700
+F 0 "U1" H 4000 4850 60  0000 C CNN
+F 1 "GD32F103TB" H 4850 3950 60  0000 C CNN
+F 2 "FST:QFN36" H 4900 3700 60  0001 C CNN
+F 3 "" H 4900 3700 60  0001 C CNN
+	1    4900 3700
+	1    0    0    -1  
+$EndComp
+Text Label 3650 4600 1    60   ~ 0
+PA2
 $EndSCHEMATC
