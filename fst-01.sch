@@ -7,7 +7,7 @@ Sheet 1 1
 Title "FST-01R"
 Date "2021-06-30"
 Rev "1.3"
-Comp "FSIJ"
+Comp "Flying Stone Technology"
 Comment1 "Improvements by M.A.S."
 Comment2 ""
 Comment3 ""
